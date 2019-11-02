@@ -1,0 +1,65 @@
+body {
+	background-color: #000
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	width:750px;
+	margin-left:10px;
+	margin-right:50px;
+	margin-top:20px;
+	font-size:14px;
+}
+
+a {
+	color: #0bc;
+	text-decoration: none;
+}
+
+#a {
+	color: #000000;
+	padding: 5px;
+	background: #00b7ff;
+}
+
+.first-a {
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	padding-right: 24px !important;
+	font-weight: bold;
+}
+
+.second-a {
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	margin-right: -12px;
+	padding-right: 50px !important;
+	font-weight: bold;
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #000000;
+	font-weight: bold;
+	width: 120px !important;
+	margin-left: -37px;
+	padding: 5px 15px 5px 15px;
+	background: rgba(245, 222, 13, 0.829);
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+}
+
+#k {
+    	animation: change 1s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}
