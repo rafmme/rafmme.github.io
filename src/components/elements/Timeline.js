@@ -16,7 +16,7 @@ function Timeline() {
       </div>
       {Resume.work
         .map(item => {
-          return new Date(item.startDate).getFullYear();
+          return new Date(item.endDate).getFullYear();
         })
         .map((year, i) => {
           let content = [];
@@ -27,12 +27,12 @@ function Timeline() {
           );
           content.push(
             Resume.work
-              .filter(work => new Date(work.startDate).getFullYear() === year)
+              .filter(work => new Date(work.endDate).getFullYear() === year)
               .map((item, j) => {
                 return (
                   <TimelineItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
+                    date={new Date(item.endDate).toLocaleString("en-UK", {
                       month: "long",
                       year: "numeric"
                     })}

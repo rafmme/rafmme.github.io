@@ -16,7 +16,7 @@ function Education() {
       </div>
       {Resume.education
         .map(item => {
-          return new Date(item.startDate).getFullYear();
+          return new Date(item.endDate).getFullYear();
         })
         .map((year, i) => {
           let content = [];
@@ -27,12 +27,12 @@ function Education() {
           );
           content.push(
             Resume.education
-              .filter(education => new Date(education.startDate).getFullYear() === year)
+              .filter(education => new Date(education.endDate).getFullYear() === year)
               .map((item, j) => {
                 return (
                   <EducationItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
+                    date={new Date(item.endDate).toLocaleString("en-UK", {
                       month: "long",
                       year: "numeric"
                     })}

@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Timileyin Farayola",
-    "label": "Associate Software Engineer",
+    "label": "Backend Developer",
     "picture": "images/tf.jpg",
     "x_pictureFallback": "images/tf.jpg",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "2+ years of experience in the Tech World. Currently seeking out for new opportunities.",
+    "x_title": "Hello there!",
+    "summary": "I'm an innovative and technically-astute Software Engineer well-versed in analysing user needs and developing software applications to precisely meet diverse needs. Currently seeking out for new opportunities.",
     "location": {
       "country": "Nigeria",
       "countryCode": "NG",
@@ -35,29 +35,38 @@
   "work": [
     {
       "company": "Freelancing",
-      "position": "Freelance JS Engineer",
+      "position": "Backend Developer",
       "website": "",
-      "startDate": "2020-04-08",
-      "endDate": "",
-      "summary": "-",
+      "startDate": "2022-05-01",
+      "endDate": "2022-05-01",
+      "summary": "Freelancing as a Backend Developer on clents' projects.",
+      "highlights": []
+    },
+    {
+      "company": "IGov Africa",
+      "position": "Backend Developer",
+      "website": "https://www.igovafrica.com",
+      "startDate": "2021-05-01",
+      "endDate": "2021-05-01",
+      "summary": "Developed software applications using technologies like NodeJS, React, Redux, TypeScript and MongoDB. Planned & engineered RESTFul web services to manipulate dynamic datasets.",
       "highlights": []
     },
     {
       "company": "Andela",
-      "position": "Associate DevOps Engineer",
+      "position": "Backend Developer",
       "website": "https://www.andela.com",
-      "startDate": "2019-03-18",
-      "endDate": "2020-03-20",
-      "summary": "Worked within a team of DevOps Engineers to provide DevOps support on internal projects.",
+      "startDate": "2018-11-03",
+      "endDate": "2018-11-03",
+      "summary": "Collected, defined & translated user requirements into project designs & implementation plans. Developed software applications using NodeJS, JavaScript, React, Redux and PostgreSQL. Worked in an Agile-driven environment to effectively maintain project timelines and utilise available resources. Worked with technologies like Docker, Kubernetes, CircleCI, Bash Scripting & GCP. Implemented unit testing to deliver optimal functionality.",
       "highlights": []
     },
     {
-      "company": "Andela",
-      "position": "Associate Software Engineer",
-      "website": "https://www.andela.com",
-      "startDate": "2018-12-03",
-      "endDate": "2020-03-20",
-      "summary": "Started my first professional software engineering experience as a Full Stack Developer for Andela, Lagos.",
+      "company": "AppsWorkforce",
+      "position": "Backend Developer",
+      "website": "https://www.appsworkforce.com",
+      "startDate": "2017-08-07",
+      "endDate": "2017-08-07",
+      "summary": "Implemented Server side logic with Java on a software project for managing Students enrolled in online courses on Edx & Coursera to track their progress and interact with other students taking same courses in their locality. Worked with Google App Engine.",
       "highlights": []
     }
   ],
@@ -67,7 +76,7 @@
       "area": "IT Support & System Administration (MOOCs).",
       "studyType": "MOOCs",
       "startDate": "2021-03-15",
-      "endDate": "",
+      "endDate": "2021-10-15",
       "courses": "System Administration, Troubleshooting, IT Support."
       
     },
@@ -76,8 +85,17 @@
       "area": "Introduction to Computer Science & Programming Using Python (MOOCs).",
       "studyType": "MOOCs",
       "startDate": "2017-09-15",
-      "endDate": "2017-11-15",
+      "endDate": "2018-03-15",
       "courses": "Object Oriented Programming, Data Structure & Algorithm, Introduction to Python Programming, Logic & Problem Solving."
+
+    },
+    {
+      "institution": "Andela Learning Community, Udacity",
+      "area": "Android App Development Course",
+      "studyType": "MOOCs",
+      "startDate": "2017-09-15",
+      "endDate": "2017-10-15",
+      "courses": "Object Oriented Programming, Android App Developent, Programming with Java."
 
     },
     {
@@ -94,6 +112,36 @@
       "name": "NodeJS",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Java",
+      "level": "Basic",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Flutter/Dart",
+      "level": "Basic",
+      "keywords": ["DevOps"]
     },
     {
       "name": "Object Oriented Programming",
@@ -203,28 +251,44 @@
   ],
   "project": [
     {
-      "name": "US Stock Market Chat Bot Assistant",
-      "startDate": "2021-01-03",
-      "endDate": "2021-04-11",
-      "url": "https://m.me/LewisTheAssistant",
-      "tools": "Tools: Facebook Messenger (Graph API), NodeJS, ExpressJS, PostgreSQL, Sequelize, GraphQL, Puppeteer, Twilio, Redis, MemCachier, Wit.ai, 3rd parties finance API(FinnHub, iexCloud, rapiddojo, alphavantage), Cron jobs, ESLint, Mochai & Chai.",
-      "summary": "Created a Facebook Messenger Chat Bot that provides users with information on the US Stock Market, Cryptos & Nigeria Stock Market."
+      "name": "NG USSD Banking App",
+      "startDate": "2022-02-04",
+      "endDate": "2023-04-18",
+      "url": "https://github.com/rafmme/ng-ussd-banking-app/releases/download/v1.0.0/ng-ussd-banking-app.apk",
+      "tools": "Tools: Flutter, Dart, XCode & Android Studio.",
+      "summary": "This is a cross-platform mobile app that helps you perform banking transactions via various Nigerian banks’ USSD platform without the need to memorise the various USSD codes."
     },
     {
-      "name": "Fast Food",
+      "name": "Dealz Finder Bot",
+      "startDate": "2022-06-04",
+      "endDate": "2022-07-18",
+      "url": "https://t.me/AlerterNGBot",
+      "tools": "Tools: Docker, Python, FastAPI, BeautifulSoup, Selenium WebDriver, Redis, NodeJS, ExpressJS, PostgreSQL, Sequelize, Cron and Heroku Container stack.",
+      "summary": "This is an app that scrapes the two major e-commerce websites in Nigeria to find specific products (deals) that fall within a given price range & notifies users with the link to the product on the e-commerce website."
+    },
+    {
+      "name": "US Stock Market Info Bot App",
+      "startDate": "2021-01-03",
+      "endDate": "2021-04-11",
+      "url": "https://t.me/LewisSMBot",
+      "tools": "Tools: TeleGram API, Facebook Messenger (Graph API), NodeJS, ExpressJS, PostgreSQL, Sequelize, GraphQL, Puppeteer, Twilio, Redis, MemCachier, Cron jobs.",
+      "summary": "A Telegram & Facebook Messenger Chat Bot app that provides users with information on the US Stock Market, Cryptos & Nigeria Stock Market."
+    },
+    {
+      "name": "Web Page ScreenShot App",
+      "startDate": "2018-09-14",
+      "endDate": "2020-03-18",
+      "url": "https://shot-it.herokuapp.com",
+      "tools": "Tools: Puppeteer, NodeJS, ExpressJS, HTML, CSS",
+      "summary": "A web application for capturing a web page as screenshot image or as a pdf document."
+    },
+    {
+      "name": "Fast Food Order App",
       "startDate": "2018-09-14",
       "endDate": "2018-10-05",
       "url": "https://foodie21.herokuapp.com",
       "tools": "Tools: Postgres, ReactJS/Redux, ExpressJS, NodeJS, Mocha, SendGrid, Jest, Chai & Enzyme.",
       "summary": "Created a web application (boot-camp project) for a fictional food store that allows users to order fast food via the application.\n\nGitHub URL: https://github.com/rafmme/foodfast"
-    },
-    {
-      "name": "Nigerian Banks' USSD Dialer",
-      "startDate": "2017-12-31",
-      "endDate": "2018-04-05",
-      "url": "https://github.com/rafmme/ussd-play-project",
-      "tools": "Tools: Java, Android Studio.",
-      "summary": "Created an android app with curated USSD codes for making transactions for major banks in Nigeria and makes it easy for users to dial the USSD codes straight away from the application without the need to memorize them."
     }
   ]
 }

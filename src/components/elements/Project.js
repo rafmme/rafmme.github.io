@@ -16,7 +16,7 @@ function Project() {
       </div>
       {Resume.project
         .map(item => {
-          return new Date(item.startDate).getFullYear();
+          return new Date(item.endDate).getFullYear();
         })
         .map((year, i) => {
           let content = [];
@@ -27,12 +27,12 @@ function Project() {
           );
           content.push(
             Resume.project
-              .filter(project => new Date(project.startDate).getFullYear() === year)
+              .filter(project => new Date(project.endDate).getFullYear() === year)
               .map((item, j) => {
                 return (
                   <ProjectItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
+                    date={new Date(item.endDate).toLocaleString("en-UK", {
                       month: "long",
                       year: "numeric"
                     })}
