@@ -5,8 +5,8 @@ function Policy() {
     <div style={{padding: '50px'}}>
       <strong>Privacy Policy</strong>{" "}
       <p>
-        Timileyin Farayola [RAFMME] built the USSD Transakt app as a Free
-        app. This SERVICE is provided by Timileyin Farayola [RAFMME] at no cost
+        Timileyin Farayola [<b>RAFMME</b>] built the <b>USSD Transakt App</b> as a Free
+        app. This SERVICE is provided by Timileyin Farayola [<b>RAFMME</b>] at no cost
         and is intended for use as is.
       </p>{" "}
       <p>
@@ -23,10 +23,10 @@ function Policy() {
       </p>{" "}
       <p>
         The terms used in this Privacy Policy have the same meanings as in our
-        Terms and Conditions, which are accessible at USSD Transakt Alp unless
+        Terms and Conditions, which are accessible at <b>USSD Transakt App</b> unless
         otherwise defined in this Privacy Policy.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Information Collection and Use</strong>
       </p>{" "}
       <p>
@@ -35,7 +35,7 @@ function Policy() {
         but not limited to phonebook. The information that I request will be
         retained on your device and is not collected by me in any way.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Log Data</strong>
       </p>{" "}
       <p>
@@ -47,7 +47,7 @@ function Policy() {
         utilizing my Service, the time and date of your use of the Service, and
         other statistics.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Cookies</strong>
       </p>{" "}
       <p>
@@ -63,7 +63,7 @@ function Policy() {
         your device. If you choose to refuse our cookies, you may not be able to
         use some portions of this Service.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Service Providers</strong>
       </p>{" "}
       <p>
@@ -82,7 +82,7 @@ function Policy() {
         assigned to them on our behalf. However, they are obligated not to
         disclose or use the information for any other purpose.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Security</strong>
       </p>{" "}
       <p>
@@ -92,7 +92,7 @@ function Policy() {
         electronic storage is 100% secure and reliable, and I cannot guarantee
         its absolute security.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Links to Other Sites</strong>
       </p>{" "}
       <p>
@@ -103,7 +103,7 @@ function Policy() {
         and assume no responsibility for the content, privacy policies, or
         practices of any third-party sites or services.
       </p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Children’s Privacy</strong>
       </p>{" "}
       <div>
@@ -123,7 +123,7 @@ function Policy() {
           so on your behalf).
         </p>
       </div>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Changes to This Privacy Policy</strong>
       </p>{" "}
       <p>
@@ -132,7 +132,7 @@ function Policy() {
         any changes by posting the new Privacy Policy on this page.
       </p>{" "}
       <p>This policy is effective as of 2022-04-18</p>{" "}
-      <p>
+      <p style={{marginTop: '50px'}}>
         <strong>Contact Us</strong>
       </p>{" "}
       <p>
