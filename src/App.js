@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/structure/Header";
 import Content from "./components/structure/Content";
 import Footer from "./components/structure/Footer";
+import Policy from "./components/policy";
 import Resume from "./resume.json";
 
 class App extends Component {
@@ -14,13 +15,25 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <Header />
-        <Content />
-        <Footer />
-      </div>
-    );
+    if (window.location.pathname.toLowerCase() === '/apps/ussd-transakt/policy') {
+      return (
+        <>
+          <Policy />
+        </>
+      );
+    }
+
+    if (window.location.pathname.toLowerCase() === '/') {
+      return (
+        <div>
+          <Header />
+          <Content />
+          <Footer />
+        </div>
+      );
+    }
+
+    return <></>;
   }
 }
 
